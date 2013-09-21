@@ -13,7 +13,7 @@
 PRODUCT_COPY_FILES += \
     device/htc/k2_plc_cl/recovery/choice_fn:recovery/root/sbin/choice_fn \
     device/htc/k2_plc_cl/recovery/detect_key:recovery/root/sbin/detect_key \
-    device/htc/k2_plc_cl/recovery/recovery/init.recovery.qcom.rc:root/init.recovery.qcom.rc \
+    device/htc/k2_plc_cl/recovery/init.recovery.qcom.rc:root/init.recovery.qcom.rc \
     device/htc/k2_plc_cl/recovery/offmode_charging:recovery/root/sbin/offmode_charging \
     device/htc/k2_plc_cl/recovery/power_test:recovery/root/sbin/power_test
 
