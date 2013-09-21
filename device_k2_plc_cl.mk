@@ -11,10 +11,11 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 PRODUCT_COPY_FILES += \
-    device/htc/k2_plc_cl/recovery/sbin/choice_fn:recovery/root/sbin/choice_fn \
-    device/htc/k2_plc_cl/recovery/sbin/detect_key:recovery/root/sbin/detect_key \
-    device/htc/k2_plc_cl/recovery/sbin/offmode_charging:recovery/root/sbin/offmode_charging \
-    device/htc/k2_plc_cl/recovery/sbin/power_test:recovery/root/sbin/power_test
+    device/htc/k2_plc_cl/recovery/choice_fn:recovery/root/sbin/choice_fn \
+    device/htc/k2_plc_cl/recovery/detect_key:recovery/root/sbin/detect_key \
+    device/htc/k2_plc_cl/recovery/recovery/init.recovery.qcom.rc:root/init.recovery.qcom.rc \
+    device/htc/k2_plc_cl/recovery/offmode_charging:recovery/root/sbin/offmode_charging \
+    device/htc/k2_plc_cl/recovery/power_test:recovery/root/sbin/power_test
 
 PRODUCT_NAME := One SV
 PRODUCT_DEVICE := k2_plc_cl
